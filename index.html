@@ -1,0 +1,959 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nexa Africa — Building Digital Trust for the Unbanked</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav id="navbar">
+  <div class="nav-inner">
+    <a href="#" class="logo">
+      <span class="logo-n">N</span><span class="logo-rest">exa</span>
+      <span class="logo-dot">●</span>
+      <span class="logo-africa">Africa</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="#products">Products</a></li>
+      <li><a href="#how">How It Works</a></li>
+      <li><a href="#tiers">Plans</a></li>
+      <li><a href="#impact">Impact</a></li>
+      <li><a href="#about">About</a></li>
+    </ul>
+    <div class="nav-cta">
+      <a href="#signin" class="btn-ghost" id="signin-btn">Sign In</a>
+      <a href="#signup" class="btn-primary" id="open-signup">Open Account</a>
+    </div>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <div class="mobile-menu" id="mobile-menu">
+    <a href="#products">Products</a>
+    <a href="#how">How It Works</a>
+    <a href="#tiers">Plans</a>
+    <a href="#impact">Impact</a>
+    <a href="#about">About</a>
+    <a href="#signup" class="btn-primary mobile-cta" id="open-signup-m">Open Account</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-bg">
+    <div class="hero-orb orb1"></div>
+    <div class="hero-orb orb2"></div>
+    <div class="hero-orb orb3"></div>
+    <div class="grid-overlay"></div>
+  </div>
+  <div class="hero-content">
+    <div class="hero-badge">
+      <span class="badge-dot"></span>
+      Now live in Nigeria &nbsp;·&nbsp; 2025
+    </div>
+    <h1 class="hero-title">
+      <span class="line1">Africa's</span>
+      <span class="line2">Smartest</span>
+      <span class="line3">Bank.</span>
+    </h1>
+    <p class="hero-sub">
+      No branch. No hidden charges. No fine print.<br>
+      Built for 542 million Africans who deserve better.
+    </p>
+    <div class="hero-actions">
+      <a href="#signup" class="btn-hero" id="hero-signup">Open Free Account</a>
+      <a href="#how" class="btn-outline-hero">See How It Works ↓</a>
+    </div>
+    <div class="hero-stats">
+      <div class="stat"><span class="stat-num" data-target="542">0</span><span>M</span><p>Unbanked Africans</p></div>
+      <div class="stat-div"></div>
+      <div class="stat"><span class="stat-num" data-target="93">0</span><span>%</span><p>Mobile Penetration</p></div>
+      <div class="stat-div"></div>
+      <div class="stat"><span class="stat-num" data-target="0.3">0</span><span>%</span><p>Transfer Fee</p></div>
+    </div>
+  </div>
+  <div class="hero-phone">
+    <div class="phone-frame">
+      <div class="phone-screen">
+        <div class="phone-ui">
+          <div class="phone-header">
+            <span class="ph-greeting">Good morning, Amara 👋</span>
+            <div class="ph-avatar">A</div>
+          </div>
+          <div class="phone-balance">
+            <p class="bal-label">Total Balance</p>
+            <h2 class="bal-amount">₦847,250<span>.00</span></h2>
+            <p class="bal-sub health-score">Financial Health: <strong>84/100 ✦</strong></p>
+          </div>
+          <div class="phone-actions">
+            <div class="pa"><div class="pa-icon">↑</div><p>Send</p></div>
+            <div class="pa"><div class="pa-icon">↓</div><p>Receive</p></div>
+            <div class="pa"><div class="pa-icon">⚡</div><p>Bills</p></div>
+            <div class="pa"><div class="pa-icon">💳</div><p>Cards</p></div>
+          </div>
+          <div class="phone-insight">
+            <div class="insight-icon">🤖</div>
+            <p><strong>NexaIQ:</strong> You've saved ₦18K more than last month. Keep it up!</p>
+          </div>
+          <div class="phone-txns">
+            <div class="txn">
+              <div class="txn-dot food"></div>
+              <div class="txn-info"><p>Groceries</p><span>Food · Today</span></div>
+              <span class="txn-amt out">-₦4,500</span>
+            </div>
+            <div class="txn">
+              <div class="txn-dot inc"></div>
+              <div class="txn-info"><p>Salary Credit</p><span>Income · Yesterday</span></div>
+              <span class="txn-amt in">+₦350,000</span>
+            </div>
+            <div class="txn">
+              <div class="txn-dot trans"></div>
+              <div class="txn-info"><p>Bolt Ride</p><span>Transport · 2 days ago</span></div>
+              <span class="txn-amt out">-₦2,100</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TRUST STRIP -->
+<div class="trust-strip">
+  <div class="trust-inner">
+    <span>🔒 CBN Regulated</span>
+    <span class="ts-div">|</span>
+    <span>🛡️ AES-256 Encrypted</span>
+    <span class="ts-div">|</span>
+    <span>⚡ NIBSS Connected</span>
+    <span class="ts-div">|</span>
+    <span>🌍 12 African Countries</span>
+    <span class="ts-div">|</span>
+    <span>🤖 AI-Powered Banking</span>
+    <span class="ts-div">|</span>
+    <span>📱 Works on Any Phone</span>
+  </div>
+</div>
+
+<!-- PROBLEMS WE SOLVE -->
+<section id="problems">
+  <div class="section-inner">
+    <div class="section-label">THE PROBLEM</div>
+    <h2 class="section-title">African banking has been <em>broken</em><br>for too long.</h2>
+    <div class="problems-grid">
+      <div class="problem-card pc1">
+        <div class="pc-num">01</div>
+        <h3>No Identity, No Bank</h3>
+        <p>542 million Africans lack formal ID. Traditional banks turn them away. Nexa onboards anyone with a face scan and a phone number.</p>
+      </div>
+      <div class="problem-card pc2">
+        <div class="pc-num">02</div>
+        <h3>Hidden Charges</h3>
+        <p>"All these bank charges" — every Nigerian has said this. Nexa discloses every fee in plain language before it happens. No surprises. Ever.</p>
+      </div>
+      <div class="problem-card pc3">
+        <div class="pc-num">03</div>
+        <h3>Banks Are Too Far</h3>
+        <p>You shouldn't need ₦1,500 transport money and a day off work to fix a failed transaction. Nexa works fully on USSD, WhatsApp, and voice.</p>
+      </div>
+      <div class="problem-card pc4">
+        <div class="pc-num">04</div>
+        <h3>Fraud Everywhere</h3>
+        <p>Nigeria loses ₦5 billion monthly to banking fraud. NexaShield AI watches every transaction in real time and stops fraud before it moves.</p>
+      </div>
+      <div class="problem-card pc5">
+        <div class="pc-num">05</div>
+        <h3>No Credit History</h3>
+        <p>Banks won't lend to people without formal credit history. NexaScore builds yours from your actual behaviour — no collateral needed.</p>
+      </div>
+      <div class="problem-card pc6">
+        <div class="pc-num">06</div>
+        <h3>Money Disappears</h3>
+        <p>Most people don't know where their money goes. NexaIQ categorises every transaction and shows you your complete financial picture.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- HOW IT WORKS -->
+<section id="how">
+  <div class="section-inner">
+    <div class="section-label">HOW IT WORKS</div>
+    <h2 class="section-title">Banking that works<br>the way <em>you</em> live.</h2>
+    <div class="how-steps">
+      <div class="how-step" data-step="1">
+        <div class="step-num">01</div>
+        <div class="step-body">
+          <h3>Open in 3 Minutes</h3>
+          <p>No branch. No queue. Download the app, enter your phone number, scan your face. Or dial <strong>*737*NEXA#</strong> from any phone — no internet required.</p>
+        </div>
+      </div>
+      <div class="how-step" data-step="2">
+        <div class="step-num">02</div>
+        <div class="step-body">
+          <h3>Bank Like Never Before</h3>
+          <p>Send money, pay bills, save automatically, get a virtual card, split bills with friends, and receive salary — all in one place.</p>
+        </div>
+      </div>
+      <div class="how-step" data-step="3">
+        <div class="step-num">03</div>
+        <div class="step-body">
+          <h3>NexaIQ Watches Your Money</h3>
+          <p>Every transaction is automatically labelled and analysed. Know exactly where every kobo goes. Get alerts before you overspend.</p>
+        </div>
+      </div>
+      <div class="how-step" data-step="4">
+        <div class="step-num">04</div>
+        <div class="step-body">
+          <h3>Build Your Future</h3>
+          <p>Grow your NexaScore, unlock loans without collateral, get micro-insurance, grow your business, and send money across Africa at 0.3%.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PRODUCTS -->
+<section id="products">
+  <div class="section-inner">
+    <div class="section-label">PRODUCTS</div>
+    <h2 class="section-title">One bank.<br>Every financial need.</h2>
+    <div class="products-tabs">
+      <button class="ptab active" data-tab="nexaiq">🤖 NexaIQ</button>
+      <button class="ptab" data-tab="nexascore">📊 NexaScore</button>
+      <button class="ptab" data-tab="nexashield">🛡️ NexaShield</button>
+      <button class="ptab" data-tab="nexchange">🌍 NeXchange</button>
+      <button class="ptab" data-tab="nexlearn">📚 NexaLearn</button>
+      <button class="ptab" data-tab="nexagric">🌾 NexaAgric</button>
+    </div>
+    <div class="products-content">
+      <div class="product-panel active" id="tab-nexaiq">
+        <div class="pp-text">
+          <h3>NexaIQ — Your AI Finance Brain</h3>
+          <p>NexaIQ is the intelligence engine behind every Nexa account. It turns raw bank data into clear, useful, human insights.</p>
+          <ul>
+            <li>Auto-categorises every transaction: Food, Transport, Business, etc.</li>
+            <li>Monthly balance sheet — exactly where every kobo went</li>
+            <li>Tracks cash withdrawals you haven't tagged</li>
+            <li>Predicts if you'll run short before pay day</li>
+            <li>Compares your spending to similar earners in your city</li>
+            <li>Sends a 60-second voice report every Sunday in your language</li>
+          </ul>
+          <a href="#signup" class="btn-primary">Try NexaIQ Free</a>
+        </div>
+        <div class="pp-visual iq-visual">
+          <div class="iq-card">
+            <p class="iq-month">April 2025 — Summary</p>
+            <div class="iq-bars">
+              <div class="iq-bar-row">
+                <span>Food</span>
+                <div class="iq-bar"><div class="iq-fill" style="width:68%;background:#00B8A9"></div></div>
+                <span>₦122K</span>
+              </div>
+              <div class="iq-bar-row">
+                <span>Transport</span>
+                <div class="iq-bar"><div class="iq-fill" style="width:30%;background:#F5A623"></div></div>
+                <span>₦53.5K</span>
+              </div>
+              <div class="iq-bar-row">
+                <span>Hygiene</span>
+                <div class="iq-bar"><div class="iq-fill" style="width:11%;background:#6C3483"></div></div>
+                <span>₦20K</span>
+              </div>
+              <div class="iq-bar-row">
+                <span>Debt</span>
+                <div class="iq-bar"><div class="iq-fill" style="width:5%;background:#C0392B"></div></div>
+                <span>₦10K</span>
+              </div>
+              <div class="iq-bar-row unaccounted">
+                <span>⚠ Unaccounted</span>
+                <div class="iq-bar"><div class="iq-fill" style="width:26%;background:#E8F4F8;border:1px dashed #00B8A9"></div></div>
+                <span>₦94.3K</span>
+              </div>
+            </div>
+            <div class="iq-insight">
+              <span>💡</span> Tag your ₦94,300 cash spending to complete your picture.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="product-panel" id="tab-nexascore">
+        <div class="pp-text">
+          <h3>NexaScore — Credit Without a Bank History</h3>
+          <p>Africa's credit bureaus exclude most people. NexaScore builds your creditworthiness from how you actually behave with money.</p>
+          <ul>
+            <li>Scores income regularity, savings discipline, and spending stability</li>
+            <li>No collateral, no guarantor needed for loans above score 60</li>
+            <li>A market trader with 8 months of Nexa can access ₦150,000</li>
+            <li>Nexa Cooperative: 10–50 people pool scores for group credit</li>
+            <li>Score improves automatically as you bank responsibly</li>
+          </ul>
+          <a href="#signup" class="btn-primary">Build Your Score</a>
+        </div>
+        <div class="pp-visual score-visual">
+          <div class="score-card">
+            <p>Your NexaScore</p>
+            <div class="score-gauge">
+              <svg viewBox="0 0 200 110" class="gauge-svg">
+                <path d="M 20 100 A 80 80 0 0 1 180 100" fill="none" stroke="#1a3c5e" stroke-width="16" stroke-linecap="round"/>
+                <path d="M 20 100 A 80 80 0 0 1 180 100" fill="none" stroke="#00B8A9" stroke-width="16" stroke-linecap="round" stroke-dasharray="251" stroke-dashoffset="63" class="gauge-fill"/>
+                <text x="100" y="88" text-anchor="middle" font-size="36" font-weight="800" fill="#00B8A9" font-family="Syne">74</text>
+                <text x="100" y="106" text-anchor="middle" font-size="11" fill="#6B7C93" font-family="DM Sans">out of 100</text>
+              </svg>
+            </div>
+            <div class="score-factors">
+              <div class="sf good">✓ Income stable</div>
+              <div class="sf good">✓ Saves regularly</div>
+              <div class="sf med">~ Debt repayment</div>
+              <div class="sf good">✓ 8 months active</div>
+            </div>
+            <div class="score-loan">Eligible for loan up to <strong>₦150,000</strong></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="product-panel" id="tab-nexashield">
+        <div class="pp-text">
+          <h3>NexaShield — AI Fraud Protection</h3>
+          <p>Nigeria loses ₦5B monthly to banking fraud. NexaShield makes Nexa the hardest bank in Africa to defraud.</p>
+          <ul>
+            <li>Real-time ML scoring on every transaction in under 200ms</li>
+            <li>Behavioural biometrics — detects if someone else is using your phone</li>
+            <li>SIM-swap protection: 48-hour freeze + re-verification on any SIM change</li>
+            <li>Holds suspicious transfers and calls you before money moves</li>
+            <li>In-app security dashboard — see every device login, freeze instantly</li>
+            <li>₦5M monthly Fraud Bounty for ethical hackers who report exploits</li>
+          </ul>
+          <a href="#signup" class="btn-primary">Banking You Can Trust</a>
+        </div>
+        <div class="pp-visual shield-visual">
+          <div class="shield-card">
+            <div class="shield-icon">🛡️</div>
+            <h4>NexaShield Active</h4>
+            <div class="shield-alerts">
+              <div class="alert-row blocked">
+                <span class="ar-status">🚫 BLOCKED</span>
+                <div class="ar-info">
+                  <p>Transfer ₦85,000 → Unknown</p>
+                  <small>3:14 AM · Unusual time · New recipient</small>
+                </div>
+              </div>
+              <div class="alert-row safe">
+                <span class="ar-status">✓ SAFE</span>
+                <div class="ar-info">
+                  <p>Transfer ₦12,000 → Mama Ngozi</p>
+                  <small>Regular recipient · Known amount</small>
+                </div>
+              </div>
+              <div class="alert-row warn">
+                <span class="ar-status">⚠ VERIFY</span>
+                <div class="ar-info">
+                  <p>Login from new device</p>
+                  <small>Abuja · iPhone 14 · 11:32 PM</small>
+                </div>
+              </div>
+            </div>
+            <p class="shield-foot">0 fraudulent transactions in 8 months</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="product-panel" id="tab-nexchange">
+        <div class="pp-text">
+          <h3>NeXchange — Cross-Border at 0.3%</h3>
+          <p>The average cost to send money within Africa is 8.9%. Western Union takes more. NeXchange changes this permanently.</p>
+          <ul>
+            <li>Send to Ghana, Kenya, Tanzania, Côte d'Ivoire, and 8 more countries</li>
+            <li>0.3% fee — 30× cheaper than the market average</li>
+            <li>Settles in under 60 seconds</li>
+            <li>Recipient doesn't need a Nexa account — they claim via link</li>
+            <li>Uses stablecoin rails + central bank bilateral settlements</li>
+          </ul>
+          <a href="#signup" class="btn-primary">Send Money Across Africa</a>
+        </div>
+        <div class="pp-visual xchange-visual">
+          <div class="xchange-card">
+            <div class="xc-row">
+              <div class="xc-country">
+                <div class="flag">🇳🇬</div>
+                <p>Nigeria</p>
+                <strong>₦50,000</strong>
+              </div>
+              <div class="xc-arrow">→</div>
+              <div class="xc-country">
+                <div class="flag">🇬🇭</div>
+                <p>Ghana</p>
+                <strong>GH₵ 197.4</strong>
+              </div>
+            </div>
+            <div class="xc-comparison">
+              <div class="xc-them">
+                <span>Western Union</span>
+                <strong class="bad">8.9% = ₦4,450</strong>
+              </div>
+              <div class="xc-us">
+                <span>NeXchange</span>
+                <strong class="good">0.3% = ₦150</strong>
+              </div>
+            </div>
+            <div class="xc-save">You save <strong>₦4,300</strong> on this transfer</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="product-panel" id="tab-nexlearn">
+        <div class="pp-text">
+          <h3>NexaLearn — Financial Education Built In</h3>
+          <p>Most Africans were never taught how money works. NexaLearn fixes that — and rewards you for learning.</p>
+          <ul>
+            <li>2-minute lessons on budgeting, credit, saving, tax, investing</li>
+            <li>Available in English, Yoruba, Hausa, Igbo, Pidgin, French, Swahili</li>
+            <li>Earn NexaPoints → redeem for airtime, data, or savings boosts</li>
+            <li>NexaLearn Kids — ages 8–15, games + parent-controlled wallet</li>
+            <li>Employers sponsor financial wellness programmes for their staff</li>
+            <li>Advice based on YOUR transaction patterns, not generic tips</li>
+          </ul>
+          <a href="#signup" class="btn-primary">Start Learning Free</a>
+        </div>
+        <div class="pp-visual learn-visual">
+          <div class="learn-card">
+            <div class="learn-header">
+              <span>📚 Today's Lesson</span>
+              <span class="learn-pts">+50 pts</span>
+            </div>
+            <h4>How to Build Your NexaScore</h4>
+            <div class="learn-progress">
+              <div class="lp-fill" style="width:60%"></div>
+            </div>
+            <p class="learn-body">Your NexaScore rises when you save consistently — even ₦500 a week counts. Users who save weekly see their score improve by an average of 12 points in 3 months...</p>
+            <div class="learn-langs">
+              <span class="ll active">EN</span>
+              <span class="ll">YO</span>
+              <span class="ll">HA</span>
+              <span class="ll">IG</span>
+              <span class="ll">FR</span>
+            </div>
+            <div class="learn-points">
+              <span>🏆 NexaPoints: <strong>1,240</strong></span>
+              <span class="redeem">Redeem</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="product-panel" id="tab-nexagric">
+        <div class="pp-text">
+          <h3>NexaAgric — Banking for Farmers</h3>
+          <p>Agriculture employs 70% of Africa's workforce, yet farmers are the most excluded from formal finance. Not anymore.</p>
+          <ul>
+            <li>Seasonal savings — lock funds at planting, release at harvest</li>
+            <li>Input loans for seeds and fertiliser — disbursed at planting season</li>
+            <li>Real-time crop price alerts — never be cheated by middlemen again</li>
+            <li>Offtake payments direct from food companies to farmers</li>
+            <li>Automatic crop insurance using satellite and rainfall data</li>
+            <li>If rains fail, payout is automatic — no claim form needed</li>
+          </ul>
+          <a href="#signup" class="btn-primary">Banking for Farmers</a>
+        </div>
+        <div class="pp-visual agric-visual">
+          <div class="agric-card">
+            <div class="agric-header">🌾 Farmer Dashboard — Chukwuemeka</div>
+            <div class="agric-stats">
+              <div class="ag-stat"><span>Harvest Savings</span><strong>₦284,000</strong></div>
+              <div class="ag-stat"><span>Input Loan</span><strong>₦120,000</strong></div>
+              <div class="ag-stat"><span>Crop Insurance</span><strong>Active ✓</strong></div>
+            </div>
+            <div class="agric-alert">
+              <span>📈</span>
+              <p>Tomato prices at Mile 12 are up 23% this week. Consider selling now.</p>
+            </div>
+            <div class="agric-weather">
+              <span>🌧️</span>
+              <p>Rain index normal for Anambra. No crop insurance payout triggered.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TIERS / PLANS -->
+<section id="tiers">
+  <div class="section-inner">
+    <div class="section-label">PLANS</div>
+    <h2 class="section-title">Built for everyone.<br>Priced <em>honestly.</em></h2>
+    <div class="tiers-grid">
+      <div class="tier-card">
+        <div class="tier-badge">Personal</div>
+        <h3>Nexa Basic</h3>
+        <div class="tier-price">Free <span>Forever</span></div>
+        <p class="tier-desc">For individuals, students, farmers, and first-time banking users.</p>
+        <ul class="tier-features">
+          <li>✓ Send & receive money instantly</li>
+          <li>✓ Airtime & bill payments</li>
+          <li>✓ Spending analytics + charts</li>
+          <li>✓ Smart savings goals</li>
+          <li>✓ Virtual debit card</li>
+          <li>✓ Unaccounted money tracker</li>
+          <li>✓ NexaLearn financial education</li>
+          <li>✓ USSD & WhatsApp banking</li>
+          <li>✓ Emergency float (₦2,000)</li>
+          <li>✓ Bill split with friends</li>
+        </ul>
+        <a href="#signup" class="btn-tier" id="signup-basic">Open Basic Account</a>
+      </div>
+      <div class="tier-card tier-featured">
+        <div class="tier-badge pop">Most Popular</div>
+        <h3>Nexa Pro</h3>
+        <div class="tier-price">₦1,500 <span>/month</span></div>
+        <p class="tier-desc">For freelancers, traders, market vendors, and small businesses.</p>
+        <ul class="tier-features">
+          <li>✓ Everything in Basic, plus:</li>
+          <li>✓ Multiple income stream tracking</li>
+          <li>✓ Invoice generation & delivery</li>
+          <li>✓ NexaStore — your payment storefront</li>
+          <li>✓ Client QR codes & payment links</li>
+          <li>✓ Tax estimation engine (FIRS-linked)</li>
+          <li>✓ Profit & loss dashboard</li>
+          <li>✓ NexaScore — unlock microloans</li>
+          <li>✓ Business vs personal expense split</li>
+          <li>✓ WhatsApp Business invoice link</li>
+        </ul>
+        <a href="#signup" class="btn-tier featured-btn" id="signup-pro">Open Pro Account</a>
+      </div>
+      <div class="tier-card">
+        <div class="tier-badge elite">Corporate</div>
+        <h3>Nexa Elite</h3>
+        <div class="tier-price">₦25,000 <span>/month+</span></div>
+        <p class="tier-desc">For registered companies, NGOs, cooperatives, and enterprises.</p>
+        <ul class="tier-features">
+          <li>✓ Everything in Pro, plus:</li>
+          <li>✓ Full payroll automation</li>
+          <li>✓ Role-based access control</li>
+          <li>✓ Bulk payment engine</li>
+          <li>✓ Cash flow forecasting</li>
+          <li>✓ NexaVault document storage</li>
+          <li>✓ CAC renewal reminders</li>
+          <li>✓ Enterprise credit lines</li>
+          <li>✓ Dedicated Nexa Agent</li>
+          <li>✓ Nexa Black Card</li>
+        </ul>
+        <a href="#signup" class="btn-tier" id="signup-elite">Contact Sales</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- NEXAIQ DEMO -->
+<section id="demo">
+  <div class="section-inner">
+    <div class="section-label">LIVE DEMO</div>
+    <h2 class="section-title">See NexaIQ<br>work in <em>real time.</em></h2>
+    <p class="demo-intro">Enter a monthly budget scenario and watch NexaIQ analyse it instantly.</p>
+    <div class="demo-box">
+      <div class="demo-inputs">
+        <h4>Your Monthly Income</h4>
+        <input type="number" id="income" placeholder="e.g. 300000" class="demo-input"/>
+        <h4>Your Expenses</h4>
+        <div class="expense-rows" id="expense-rows">
+          <div class="exp-row">
+            <select class="exp-cat"><option>Food</option><option>Transport</option><option>Rent</option><option>Entertainment</option><option>Health</option><option>Education</option><option>Business</option><option>Other</option></select>
+            <input type="number" class="exp-amt" placeholder="Amount ₦"/>
+          </div>
+        </div>
+        <button class="btn-ghost add-exp" id="add-expense">+ Add Expense</button>
+        <button class="btn-primary analyse-btn" id="analyse-btn">Analyse with NexaIQ →</button>
+      </div>
+      <div class="demo-output" id="demo-output">
+        <div class="demo-placeholder">
+          <div class="dp-icon">🤖</div>
+          <p>Enter your income and expenses above,<br>then click Analyse.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- IMPACT -->
+<section id="impact">
+  <div class="section-inner">
+    <div class="section-label">IMPACT</div>
+    <h2 class="section-title">This is not just<br>a bank. It's a <em>movement.</em></h2>
+    <div class="impact-grid">
+      <div class="impact-card">
+        <div class="imp-icon">🆔</div>
+        <h3>Identity for the Invisible</h3>
+        <p>Nexa ID onboards people with no government ID using face scan + community verification. For the first time, 542 million invisible Africans become financial citizens.</p>
+      </div>
+      <div class="impact-card">
+        <div class="imp-icon">🤝</div>
+        <h3>500,000 Ambassador Jobs</h3>
+        <p>The Nexa Ambassador Programme creates real income for trained community agents in every ward, market, and village — earning ₦80K–₦150K per month.</p>
+      </div>
+      <div class="impact-card">
+        <div class="imp-icon">👩‍🌾</div>
+        <h3>Farmers, Finally Banked</h3>
+        <p>NexaAgric gives smallholder farmers — 70% of Africa's workforce — access to credit, crop insurance, and direct market payments for the first time.</p>
+      </div>
+      <div class="impact-card">
+        <div class="imp-icon">📖</div>
+        <h3>Financial Education at Scale</h3>
+        <p>NexaLearn delivers 2-minute lessons in 7 languages. By Year 5, 500,000 Africans will have completed financial literacy programmes and changed how they manage money.</p>
+      </div>
+      <div class="impact-card">
+        <div class="imp-icon">💰</div>
+        <h3>₦500B in Microloans</h3>
+        <p>NexaScore will unlock ₦500 billion in microloans for people who have never had a credit history. No collateral. No guarantor. Just responsible behaviour.</p>
+      </div>
+      <div class="impact-card">
+        <div class="imp-icon">🌐</div>
+        <h3>25 Countries by Year 5</h3>
+        <p>From Nigeria to Ghana to Kenya to Ethiopia to South Africa — Nexa Africa becomes the pan-continental bank that belongs to all of Africa.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section id="testimonials">
+  <div class="section-inner">
+    <div class="section-label">VOICES</div>
+    <h2 class="section-title">What Nexa users say.</h2>
+    <div class="testi-slider" id="testi-slider">
+      <div class="testi-track" id="testi-track">
+        <div class="testi-card">
+          <div class="testi-quote">"I've been selling suya for 11 years and never had a bank account because I don't have a formal ID. Nexa opened my account in 4 minutes with just my face. I cried."</div>
+          <div class="testi-author"><div class="ta-avatar">AM</div><div><strong>Alhaji Musa</strong><span>Suya Seller, Kano</span></div></div>
+        </div>
+        <div class="testi-card">
+          <div class="testi-quote">"NexaIQ told me I was spending 41% of my income on food and showed me exactly where it was going. I thought I was managing my money. I wasn't. Now I save ₦30,000 a month."</div>
+          <div class="testi-author"><div class="ta-avatar">CN</div><div><strong>Chioma Nwosu</strong><span>Teacher, Enugu</span></div></div>
+        </div>
+        <div class="testi-card">
+          <div class="testi-quote">"I sent money to my brother in Ghana for years through Western Union. I was paying 8-9% every time. NeXchange costs me 0.3%. I've saved over ₦180,000 this year alone."</div>
+          <div class="testi-author"><div class="ta-avatar">KO</div><div><strong>Kofi Owusu</strong><span>Trader, Lagos</span></div></div>
+        </div>
+        <div class="testi-card">
+          <div class="testi-quote">"My fabric business has 12 employees. Nexa Elite handles my payroll, generates all my invoices, files my VAT returns, and gives me a cash flow forecast for next month. It replaced 3 people."</div>
+          <div class="testi-author"><div class="ta-avatar">FA</div><div><strong>Fatima Abdullahi</strong><span>Fashion Business Owner, Abuja</span></div></div>
+        </div>
+        <div class="testi-card">
+          <div class="testi-quote">"NexaShield blocked a ₦85,000 transfer at 3am that I didn't make. Nexa called me immediately. My old bank would have just let the money go."</div>
+          <div class="testi-author"><div class="ta-avatar">TJ</div><div><strong>Tunde James</strong><span>Engineer, Port Harcourt</span></div></div>
+        </div>
+      </div>
+    </div>
+    <div class="testi-dots" id="testi-dots"></div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="section-inner about-inner">
+    <div class="about-text">
+      <div class="section-label">ABOUT</div>
+      <h2 class="section-title">Built by Africans,<br>for <em>Africa.</em></h2>
+      <p>Nexa Africa was founded on one observation: African banking was never designed for most Africans. It was designed for people with formal IDs, formal jobs, formal addresses, and time to visit branches.</p>
+      <p>We built Nexa for the suya seller, the teacher, the market woman, the farmer, the student, the artisan, the small business owner. The people who hold Africa's economy together every single day — and deserve a bank that fights for them.</p>
+      <p>Nexa Africa combines banking, artificial intelligence, data science, financial education, and community infrastructure into one platform. It is not a fintech startup with a banking licence. It is a financial revolution with a product roadmap.</p>
+      <div class="about-stats">
+        <div class="as"><span>2025</span><p>Founded</p></div>
+        <div class="as"><span>25+</span><p>Countries by 2030</p></div>
+        <div class="as"><span>50M</span><p>Users by Year 5</p></div>
+      </div>
+    </div>
+    <div class="about-pillars">
+      <div class="pillar"><span class="pillar-icon">🔒</span><h4>Security</h4><p>Trust without branches</p></div>
+      <div class="pillar"><span class="pillar-icon">🎯</span><h4>Accuracy</h4><p>Every kobo explained</p></div>
+      <div class="pillar"><span class="pillar-icon">📱</span><h4>Accessible</h4><p>Works on any phone</p></div>
+      <div class="pillar"><span class="pillar-icon">😊</span><h4>User Friendly</h4><p>Even for first timers</p></div>
+      <div class="pillar"><span class="pillar-icon">🛡️</span><h4>Finance Safe</h4><p>AI fraud protection</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- USSD STRIP -->
+<div class="ussd-strip">
+  <div class="ussd-inner">
+    <div>
+      <h3>No smartphone? No problem.</h3>
+      <p>Full Nexa banking on any phone. No internet required.</p>
+    </div>
+    <div class="ussd-code">
+      <span>Dial</span>
+      <strong>*737*NEXA#</strong>
+      <span>from any phone</span>
+    </div>
+  </div>
+</div>
+
+<!-- CTA -->
+<section id="cta">
+  <div class="cta-inner">
+    <h2>Ready to bank<br>the right way?</h2>
+    <p>Join millions of Africans building financial futures with Nexa.</p>
+    <div class="cta-actions">
+      <a href="#signup" class="btn-hero cta-btn" id="cta-signup">Open Free Account</a>
+      <p class="cta-sub">Free forever · No hidden charges · No branch needed</p>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer id="footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <div class="logo footer-logo">
+        <span class="logo-n">N</span><span class="logo-rest">exa</span>
+        <span class="logo-dot">●</span>
+        <span class="logo-africa">Africa</span>
+      </div>
+      <p>Building digital trust for the unbanked.<br>CBN Licensed · NDPR Compliant · ISO 27001</p>
+      <div class="footer-socials">
+        <a href="#">𝕏</a><a href="#">in</a><a href="#">📘</a><a href="#">📸</a>
+      </div>
+    </div>
+    <div class="footer-links">
+      <div class="fl-col">
+        <h5>Products</h5>
+        <a href="#">NexaIQ</a><a href="#">NexaScore</a>
+        <a href="#">NexaShield</a><a href="#">NeXchange</a>
+        <a href="#">NexaLearn</a><a href="#">NexaAgric</a>
+      </div>
+      <div class="fl-col">
+        <h5>Plans</h5>
+        <a href="#">Nexa Basic</a><a href="#">Nexa Pro</a>
+        <a href="#">Nexa Elite</a><a href="#">For Government</a>
+        <a href="#">NexaAPI</a>
+      </div>
+      <div class="fl-col">
+        <h5>Company</h5>
+        <a href="#">About</a><a href="#">Careers</a>
+        <a href="#">Press</a><a href="#">Blog</a>
+        <a href="#">Impact Report</a>
+      </div>
+      <div class="fl-col">
+        <h5>Support</h5>
+        <a href="#">Help Centre</a><a href="#">Contact</a>
+        <a href="#">Privacy Policy</a><a href="#">Terms of Use</a>
+        <a href="#">Security</a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2025 Nexa Africa Ltd. All rights reserved. Nexa Africa is licensed by the Central Bank of Nigeria (CBN). Deposits are protected up to ₦5,000,000 by the Nigeria Deposit Insurance Corporation (NDIC).</p>
+  </div>
+</footer>
+
+<!-- SIGN UP MODAL -->
+<div class="modal-overlay" id="signup-modal">
+  <div class="modal">
+    <button class="modal-close" id="modal-close">✕</button>
+    <div class="modal-steps">
+      <div class="modal-step active" id="step-1">
+        <div class="modal-logo">Nexa Africa</div>
+        <h3>Open Your Account</h3>
+        <p class="modal-sub">Free forever. Takes 3 minutes.</p>
+        <div class="modal-tier-select">
+          <label class="tier-opt" data-tier="basic">
+            <input type="radio" name="tier" value="basic" checked>
+            <div class="tier-opt-inner">
+              <strong>Basic — Free</strong>
+              <span>Personal banking, savings, virtual card</span>
+            </div>
+          </label>
+          <label class="tier-opt" data-tier="pro">
+            <input type="radio" name="tier" value="pro">
+            <div class="tier-opt-inner">
+              <strong>Pro — ₦1,500/mo</strong>
+              <span>Invoicing, business analytics, microloans</span>
+            </div>
+          </label>
+          <label class="tier-opt" data-tier="elite">
+            <input type="radio" name="tier" value="elite">
+            <div class="tier-opt-inner">
+              <strong>Elite — ₦25,000/mo</strong>
+              <span>Payroll, bulk payments, enterprise tools</span>
+            </div>
+          </label>
+        </div>
+        <button class="btn-primary modal-next" id="next-1">Continue →</button>
+        <p class="modal-login">Already have an account? <a href="#" id="switch-signin">Sign in</a></p>
+      </div>
+
+      <div class="modal-step" id="step-2">
+        <h3>Your Details</h3>
+        <p class="modal-sub">We'll verify your identity securely.</p>
+        <div class="modal-form">
+          <input type="text" id="reg-name" placeholder="Full Name" class="modal-input"/>
+          <input type="tel" id="reg-phone" placeholder="Phone Number (e.g. 08012345678)" class="modal-input"/>
+          <input type="text" id="reg-nin" placeholder="NIN (optional for Basic)" class="modal-input"/>
+          <div class="modal-id-note">
+            <span>🤳</span> No NIN? No problem. Tap below to verify with face scan instead.
+          </div>
+          <button class="btn-ghost face-btn">Use Face Verification Instead</button>
+        </div>
+        <div class="modal-nav">
+          <button class="btn-ghost modal-back" id="back-2">← Back</button>
+          <button class="btn-primary modal-next" id="next-2">Continue →</button>
+        </div>
+      </div>
+
+      <div class="modal-step" id="step-3">
+        <h3>Create Your PIN</h3>
+        <p class="modal-sub">6-digit PIN for transactions. Keep it private.</p>
+        <div class="pin-input-row" id="pin-boxes">
+          <input type="password" maxlength="1" class="pin-box" inputmode="numeric"/>
+          <input type="password" maxlength="1" class="pin-box" inputmode="numeric"/>
+          <input type="password" maxlength="1" class="pin-box" inputmode="numeric"/>
+          <input type="password" maxlength="1" class="pin-box" inputmode="numeric"/>
+          <input type="password" maxlength="1" class="pin-box" inputmode="numeric"/>
+          <input type="password" maxlength="1" class="pin-box" inputmode="numeric"/>
+        </div>
+        <div class="modal-nav">
+          <button class="btn-ghost modal-back" id="back-3">← Back</button>
+          <button class="btn-primary modal-next" id="next-3">Create Account →</button>
+        </div>
+      </div>
+
+      <div class="modal-step" id="step-4">
+        <div class="success-icon">🎉</div>
+        <h3>Welcome to Nexa Africa!</h3>
+        <p class="modal-sub" id="success-msg">Your account is being created. You'll receive a confirmation SMS shortly.</p>
+        <div class="success-details" id="success-details"></div>
+        <button class="btn-primary" id="done-btn">Open My Dashboard →</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- SIGN IN MODAL -->
+<div class="modal-overlay" id="signin-modal">
+  <div class="modal modal-sm">
+    <button class="modal-close" id="signin-modal-close">✕</button>
+    <div class="modal-logo">Nexa Africa</div>
+    <h3>Welcome Back</h3>
+    <p class="modal-sub">Sign in to your account</p>
+    <div class="modal-form">
+      <input type="tel" id="si-phone" placeholder="Phone Number" class="modal-input"/>
+      <div class="pin-input-row" id="si-pin-boxes">
+        <input type="password" maxlength="1" class="pin-box" inputmode="numeric"/>
+        <input type="password" maxlength="1" class="pin-box" inputmode="numeric"/>
+        <input type="password" maxlength="1" class="pin-box" inputmode="numeric"/>
+        <input type="password" maxlength="1" class="pin-box" inputmode="numeric"/>
+        <input type="password" maxlength="1" class="pin-box" inputmode="numeric"/>
+        <input type="password" maxlength="1" class="pin-box" inputmode="numeric"/>
+      </div>
+      <button class="btn-primary" id="signin-submit" style="width:100%;margin-top:12px">Sign In →</button>
+      <p class="modal-login" style="text-align:center;margin-top:12px">New to Nexa? <a href="#" id="switch-signup">Open Account</a></p>
+    </div>
+  </div>
+</div>
+
+<!-- DASHBOARD -->
+<div class="dashboard-overlay" id="dashboard">
+  <div class="dashboard">
+    <div class="db-sidebar">
+      <div class="db-logo">Nexa</div>
+      <nav class="db-nav">
+        <a href="#" class="db-link active" data-panel="overview">🏠 Overview</a>
+        <a href="#" class="db-link" data-panel="transfer">↑ Send Money</a>
+        <a href="#" class="db-link" data-panel="analytics">📊 Analytics</a>
+        <a href="#" class="db-link" data-panel="savings">🏦 Savings</a>
+        <a href="#" class="db-link" data-panel="loans">💳 Loans</a>
+        <a href="#" class="db-link" data-panel="learn">📚 NexaLearn</a>
+      </nav>
+      <button class="db-logout" id="db-logout">Sign Out</button>
+    </div>
+    <div class="db-content">
+      <div class="db-panel active" id="panel-overview">
+        <div class="db-header">
+          <h2>Good morning, <span id="db-name">Friend</span> 👋</h2>
+          <span class="db-date" id="db-date"></span>
+        </div>
+        <div class="db-balance-card">
+          <p>Total Balance</p>
+          <h1 id="db-balance">₦0.00</h1>
+          <div class="db-health">Financial Health: <strong id="db-health-score">--</strong>/100</div>
+          <div class="db-card-actions">
+            <button onclick="showPanel('transfer')" class="dca-btn">↑ Send</button>
+            <button class="dca-btn" onclick="showReceive()">↓ Receive</button>
+            <button class="dca-btn">⚡ Bills</button>
+            <button class="dca-btn">💳 Card</button>
+          </div>
+        </div>
+        <div class="db-iq-alert" id="db-iq-alert"></div>
+        <div class="db-txns">
+          <h4>Recent Transactions</h4>
+          <div id="db-txn-list"></div>
+        </div>
+      </div>
+
+      <div class="db-panel" id="panel-transfer">
+        <div class="db-header"><h2>Send Money</h2></div>
+        <div class="transfer-form">
+          <div class="tf-group">
+            <label>Recipient Account Number</label>
+            <input type="text" id="tf-account" placeholder="10-digit account number" maxlength="10"/>
+          </div>
+          <div class="tf-group">
+            <label>Bank / Platform</label>
+            <select id="tf-bank">
+              <option>Nexa Africa</option><option>GTBank</option><option>Zenith Bank</option>
+              <option>Access Bank</option><option>UBA</option><option>First Bank</option>
+            </select>
+          </div>
+          <div class="tf-group">
+            <label>Amount (₦)</label>
+            <input type="number" id="tf-amount" placeholder="0.00"/>
+          </div>
+          <div class="tf-group">
+            <label>Narration (optional)</label>
+            <input type="text" id="tf-narration" placeholder="e.g. For food"/>
+          </div>
+          <div class="tf-breakdown" id="tf-breakdown"></div>
+          <button class="btn-primary" id="tf-send" style="width:100%">Send Money →</button>
+        </div>
+      </div>
+
+      <div class="db-panel" id="panel-analytics">
+        <div class="db-header"><h2>NexaIQ Analytics</h2></div>
+        <div class="analytics-summary" id="analytics-summary"></div>
+        <div class="analytics-chart" id="analytics-chart"></div>
+      </div>
+
+      <div class="db-panel" id="panel-savings">
+        <div class="db-header"><h2>Savings Goals</h2></div>
+        <div id="savings-list"></div>
+        <div class="savings-form">
+          <h4>Create New Goal</h4>
+          <input type="text" id="sg-name" placeholder="Goal name (e.g. New Phone)" class="modal-input"/>
+          <input type="number" id="sg-target" placeholder="Target amount ₦" class="modal-input"/>
+          <input type="number" id="sg-monthly" placeholder="Monthly save ₦" class="modal-input"/>
+          <button class="btn-primary" id="sg-create" style="width:100%">Create Goal</button>
+        </div>
+      </div>
+
+      <div class="db-panel" id="panel-loans">
+        <div class="db-header"><h2>NexaScore & Loans</h2></div>
+        <div id="loans-content"></div>
+      </div>
+
+      <div class="db-panel" id="panel-learn">
+        <div class="db-header"><h2>NexaLearn</h2></div>
+        <div class="learn-lessons" id="learn-lessons"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
